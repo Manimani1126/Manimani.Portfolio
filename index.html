@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:300&display=swap" rel="stylesheet">
+    <title>Mani's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ファンアート.ico">
+</head>
+<body>
+  <div id="T"></div>
+  <header class="PC">
+    <ul class="PCui">
+      <a href="#T"><li class="PCli">Top</li></a>
+      <a href="#P"><li class="PCli">Profile</li></a>
+      <a href="#S"><li class="PCli">Skill</li></a>
+      <a href="#W"><li class="PCli">Works</li></a>
+      <a href="#C"><li class="PCli">Contact</li></a>
+    </ul>
+</header>
+
+<header class="header">
+  <nav class="global-nav">
+    <ul class="global-nav__list">
+      <li class="global-nav__item" onclick="closeNav()"><a href="#T">Top</a></li>
+      <li class="global-nav__item" onclick="closeNav()"><a href="#P">Profile</a></li>
+      <li class="global-nav__item" onclick="closeNav()"><a href="#S">Skill</a></li>
+      <li class="global-nav__item" onclick="closeNav()"><a href="#W">Works</a></li>
+      <li class="global-nav__item" onclick="closeNav()"><a href="#C">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hamburger" id="js-hamburger">
+    <span class="hamburger__line hamburger__line--1"></span>
+    <span class="hamburger__line hamburger__line--2"></span>
+    <span class="hamburger__line hamburger__line--3"></span>
+  </div>
+  <div class="black-bg" id="js-black-bg"></div>
+</header>
+
+  <div class="top">
+    <div>
+     <div class="line">
+    </div>
+  <div class="titleline">
+    <div class="line3"></div>
+    <div class="title">
+      Mani's Portfolio
+    </div>
+    <div class="line3"></div>
+  </div>
+
+    <div class="line">
+    </div>
+  </div>
+
+    <div class="container">
+      <a href="#P"><div class="item">Profile</div></a>
+      <a href="#S"><div class="item">Skill</div></a>
+      <a href="#W"><div class="item">Works</div></a>
+      <a href="#C"><div class="item">Contact</div></a>
+    </div>
+  </div>
+      <div class="smalltitle"id="P">
+        Profile
+      </div>
+      <div class="line2">
+      </div>
+
+      <div class="Profile">
+        <img class="icon" src="ファンアート.png">
+        <div class="name">Mani</div>
+        <p class="text">
+          UnityとBlenderをいじる18才の高校生
+        </p>
+          <p class="text">
+            League of Legends,やMinecraft,音楽ゲームなど様々なゲームをプレイしているゲーマー
+        </p>
+      </div>
+
+      <div class="smalltitle" id="S">
+        Skill
+      </div>
+      <div class="line2">
+      </div>
+    <div class="skill">
+      <p class="text2">Unity</p><div class="Unity"></div>
+    </div>
+    <p class="text">
+      Unityで様々なゲーム制作をしています
+    </p>
+    <p class="text">
+      C#のコーディング力をもっと向上させたいと思っています
+    </p>
+    <div class="skill">
+      <p class="text2">Blender</p><div class="Blender"></div>
+    </div>
+    <p class="text">Blenderでキャラクターやゲーム製作用のモデル等を製作しています</p>
+    <p class="text">3Dプリンタを使い、モデルを造形するなど様々な製作をしています</p>
+    <div class="skill">
+      <p class="text2">HTML</p><div class="HTML"></div>
+    </div>
+    <p class="text">HTML,CSSはまだまだ勉強中です</p>
+    <p class="text">JSやCSSをバリバリ描いてかっこいいサイトを作れるようになりたい</p>
+
+
+      <div class="smalltitle" id="W">
+        Works
+      </div>
+      <div class="line2">
+      </div>
+      <div class="Works">
+        <a href="https://unityroom.com/games/tank_shooting"><div class="Worksmein"><img class="worksimg" src="Unity.png"><p class="workstitle">Unityシューティングゲーム</p></div></a>
+        <a href="https://qiita.com/Mani_Nschool/items/124f9c50a9c870035d08"><div class="Worksmein"><img class="worksimg" src="qiita.png"><p class="workstitle">qiitaアドカレ記事</p></div></a>
+        <a href="https://qiita.com/Mani_Nschool/items/28516ecbf59a19e6ad63"><div class="Worksmein"><img class="worksimg" src="qiita.png"><p class="workstitle">qiita記事</p></div></a>
+        <div class="Worksmein"></div>
+        <div class="Worksmein"></div>
+        <div class="Worksmein"></div>
+        <div class="Worksmein"></div>
+        <div class="Worksmein"></div>
+        <div class="Worksmein"></div>
+      </div>
+
+      <div class="smalltitle" id="C">
+        Contact
+      </div>
+      <div class="line2">
+      </div>
+      <div class="contact">
+      <a href="https://twitter.com/Mani_Nschool"><div class="contactmain"><img class="twitter" src="twitter.png"><p class="Contacttext">twitter</p></div></a>
+      <a href="https://qiita.com/Mani_Nschool"><div class="contactmain"><img class="qiita" src="qiita2.png"><p class="Contacttext">qiita</p></div></a>
+      </div>
+      
+      <script src="script.js"></script>
+</body>
+</html>

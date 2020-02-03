@@ -390,19 +390,16 @@ a {
 }
 .contactmain
 {
-  width: 12vw;
-  height: 12vw;
+  width: 5vw;
+  height: 5vw;
   min-width: 130px;
   min-height: 130px;
-  background: #fff45e8c;
   margin: 1vw;
   text-align: center;
-  border: solid 2px #040418;
   transition: all 0.3s ease 0s;
 }
 .contactmain:hover
 {
-  box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.25);
   transform: translateY(-0.2000em);
 }
 .Contacttext
@@ -444,9 +441,10 @@ a {
 
 .closeModal {
   position: absolute;
-  top: 0.5rem;
+  top: 0.1rem;
   right: 1rem;
   cursor: pointer;
+  font-size: 5vh;
 }
 
 .is-show {
@@ -481,6 +479,7 @@ a {
   width: 50vh;
   height: 30vh;
   margin: auto;
+  border: solid 2px #040418;
 }
 @media screen and (max-width:500px) { 
   .modalimg
@@ -489,6 +488,6 @@ a {
     width: 40vh;
     height: 25vh;
     margin: auto;
+    border: solid 2px #040418;
   }
-
 }

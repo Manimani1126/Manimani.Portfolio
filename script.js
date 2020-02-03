@@ -84,3 +84,17 @@ function toggleNav() {
       },false);
     }
   }());
+  
+  (function () {
+    const modalArea = document.getElementById('modalArea6');
+    const openModal = document.getElementById('openModal6');
+    const closeModal = document.getElementById('closeModal6');
+    const modalBg = document.getElementById('modalBg6');
+    const toggle = [openModal,closeModal,modalBg];
+    
+    for(let i=0, len=toggle.length ; i<len ; i++){
+      toggle[i].addEventListener('click',function(){
+        modalArea.classList.toggle('is-show');
+      },false);
+    }
+  }());

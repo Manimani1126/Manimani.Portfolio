@@ -482,3 +482,13 @@ a {
   height: 30vh;
   margin: auto;
 }
+@media screen and (max-width:500px) { 
+  .modalimg
+  {
+    display: block;
+    width: 40vh;
+    height: 25vh;
+    margin: auto;
+  }
+
+}
